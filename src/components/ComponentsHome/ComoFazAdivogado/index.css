@@ -1,0 +1,32 @@
+
+  .selectionCFAdivogado > div {
+    margin-top: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  .selectionCFAdivogado > div > div {
+    width: 225px;
+  }
+  .selectionCFAdivogado > div > div > img {
+    height: 125px;
+    margin-bottom: 20px;
+  }
+  .selectionCFAdivogado >  div > div > h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  .selectionCFAdivogado > div > button {
+    margin-right: 35px;
+    height: 45px;
+    padding: 0 30px;
+    border-radius: 25px;
+    border: 1px solid #838383;
+    background-color: #F7F1EC;
+  }
+  .selectionCFAdivogado >  div > button:hover {
+    color: #F7F1EC;
+    border: 1px solid #838383;
+    background-color: #000;
+  }

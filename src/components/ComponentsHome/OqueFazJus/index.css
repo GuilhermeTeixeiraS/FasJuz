@@ -1,0 +1,37 @@
+.sectionOque {
+  padding-top: 10vh;
+  border-radius: 0 25px 0 0;
+  box-shadow: 0px -3px 4px 0px #00000040;
+}
+
+.sectionOque > div > div {
+  margin-top: 10vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.sectionOque > div > div > div {
+  width: 225px;
+}
+.sectionOque > div > div > div > img {
+  height: 125px;
+  margin-bottom: 20px;
+}
+.sectionOque > div > div > div > h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.sectionOque > div > div > button {
+  margin-right: 35px;
+  height: 45px;
+  padding: 0 30px;
+  border-radius: 25px;
+  border: 1px solid #838383;
+  background-color: #F7F1EC;
+}
+.sectionOque > div > div > button:hover {
+  color: #F7F1EC;
+  border: 1px solid #838383;
+  background-color: #000;
+}

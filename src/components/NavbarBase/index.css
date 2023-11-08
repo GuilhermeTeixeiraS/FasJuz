@@ -1,0 +1,60 @@
+header {
+  width: 100vw;
+  margin-top: 30px;
+}
+nav {
+  height: 55px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logoNaveBar {
+  display: flex;
+  align-items: center;
+}
+.logoNaveBar > button{
+  background-color: transparent;
+  border: transparent;
+}
+
+.logoNaveBar > button> img {
+  height: 95%;
+  margin-right: 7px;
+}
+.referencia {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+}
+.referencia>button{
+background-color: transparent;
+border: transparent;
+}
+.logoContato {
+  display: flex;
+  justify-content: space-between;
+  width: 24%;
+}
+.logoContato > button {
+  cursor: pointer;
+  font-size: 0.7rem;
+  border-radius: 30px;
+  height: 40px;
+  width: 150px;
+}
+.butonLogin {
+  background-color: #F7F1EC;
+  color: black;
+}
+.butonLogin:hover {
+  background-color: black;
+  color: #F7F1EC;
+}
+.butonEmContato {
+  background-color: black;
+  color: #F7F1EC;
+}
+.butonEmContato:hover {
+  background-color: #F7F1EC;
+  color: black;
+}
