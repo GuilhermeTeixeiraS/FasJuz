@@ -1,7 +1,7 @@
 .mainHomePage {
   margin-top: 7vh;
   padding-top: 8vh;
-  background-image: url("../../../../public/maskMroup.svg");
+  background-image: url("/src/img/maskMroup.svg");
   background-position: right top;
   background-repeat: no-repeat;
   background-size: 80vh;

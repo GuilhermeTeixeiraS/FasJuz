@@ -24,8 +24,11 @@ function FormContrate() {
         return <FormServico step={step} setStep={setStep} />;
     }
   };
+  function sendEmail(e){
+    e.preventDefault();
+  }
   return (
-    <form>
+    <form className="form" onSubmit={sendEmail}>
       <ul>
         <li className={step >= 1 ? "check" : "dontCheck"}></li>
         <li className={step >= 2 ? "check" : "dontCheck"}></li>

@@ -4,6 +4,7 @@ import EzemploFaz from "../../components/ComponentsHome/EzemploFaz";
 import OqueFazJus from "../../components/ComponentsHome/OqueFazJus";
 import Principal from "../../components/ComponentsHome/Principal";
 import FuterBase from "../../components/FuterBase";
+import "/src/img/maskMroup.svg"
 import './index.css'
 
 function HomePage({ page, setPage }) {
