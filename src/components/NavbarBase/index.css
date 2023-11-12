@@ -15,6 +15,7 @@ nav {
 .logoNaveBar > button{
   background-color: transparent;
   border: transparent;
+  cursor: pointer;
 }
 
 .logoNaveBar > button> img {

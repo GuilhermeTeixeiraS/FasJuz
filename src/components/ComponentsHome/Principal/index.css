@@ -3,9 +3,9 @@ section {
 }
 
 .sectConteinerPrincipal {
-  padding-top: 9%;
+  padding-top: 5%;
   background-color: transparent;
-  background-image: url("../../../../public/groupHome.svg");
+  background-image: url("../../../img/groupHome.svg");
   background-position: right center;
   background-repeat: no-repeat;
   background-size: 51vh;
@@ -16,9 +16,10 @@ section {
 .conteinerPrincipal {
   width: 501px;
   background-color: transparent;
+  padding-bottom: 20px;
 }
 .conteinerPrincipal > h1 {
-  font-size: 3.7rem;
+  font-size: 75px;
   font-weight: 400;
   line-height: 65px;
   text-align: left;

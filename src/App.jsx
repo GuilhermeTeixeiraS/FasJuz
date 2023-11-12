@@ -12,6 +12,8 @@ function App() {
         return <HomePage page={page} setPage={setPage} />;
         case 2:
           return <Contrate page={page} setPage={setPage} />;
+          case 3:
+            return <Contrate page={page} setPage={setPage} />;
           default:
         return <HomePage page={page} setPage={setPage} />;
     }
