@@ -25,15 +25,17 @@
 }
 
 .sectionOque > div > div > button {
+  color: #F7F1EC;
   margin-right: 35px;
   height: 45px;
   padding: 0 30px;
   border-radius: 25px;
   border: 1px solid #838383;
-  background-color: #F7F1EC;
+  background-color: #000;
+
 }
 .sectionOque > div > div > button:hover {
-  color: #F7F1EC;
+  color: #000;
+  background-color: #F7F1EC;
   border: 1px solid #838383;
-  background-color: #000;
 }

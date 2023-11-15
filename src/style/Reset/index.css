@@ -51,4 +51,20 @@ textarea{
 }
 body{
 	background-color: #F7F1EC;
+	
+}
+::-webkit-scrollbar{
+width: 10px;
+background-color: transparent;
+
+}
+::-webkit-scrollbar-track{
+background-color: transparent;
+-webkit-box-shadow: none;
+}
+::-webkit-scrollbar-thumb{
+	-webkit-box-shadow: none;
+border: 0.5px solid #F7F1EC;
+background-color: #000;
+border-radius: 15px;
 }

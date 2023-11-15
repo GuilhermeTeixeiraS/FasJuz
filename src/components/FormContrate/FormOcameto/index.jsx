@@ -1,52 +1,42 @@
 import { FiChevronLeft } from "react-icons/fi";
 
-function FormOcameto({ step, setStep }) {
+function FormOcameto({ step, next, retun }) {
   return (
     <div className="conteinerForm">
-      <span>Qual seu orçamento para investir em um Advogado?</span>
+      <p>Qual seu orçamento para investir em um Advogado?</p>
       <div className="selecaoBT">
         <button
           type={step === 6 ? "submit" : "button"}
-          onClick={() => {
-            setStep(step + 1);
-          }}
-          value={""}
+          onClick={()=>next("NEGOCIAR")}
+          value={"NEGOCIAR"}
         >
           NEGOCIAR
         </button>
         <button
           type={step === 6 ? "submit" : "button"}
-          onClick={() => {
-            setStep(step + 1);
-          }}
-          value={""}
+          onClick={()=>next("ATÊ 1.000")}
+          value={"ATÊ 1.000"}
         >
           ATÊ 1.000
         </button>
         <button
           type={step === 6 ? "submit" : "button"}
-          onClick={() => {
-            setStep(step + 1);
-          }}
-          value={""}
+          onClick={()=>next("2.000 - 5.000")}
+          value={"2.000 - 5.000"}
         >
           2.000 - 5.000
         </button>
         <button
           type={step === 6 ? "submit" : "button"}
-          onClick={() => {
-            setStep(step + 1);
-          }}
-          value={""}
+          onClick={()=>next("5.000 OU MAIS")}
+          value={"5.000 OU MAIS"}
         >
           5.000 OU MAIS
         </button>
       </div>
       <button
       className="setaRetorno"
-          onClick={() => {
-            setStep(step - 1);
-          }}
+          onClick={retun}
           disabled={step === 1}
           type="button"
         >

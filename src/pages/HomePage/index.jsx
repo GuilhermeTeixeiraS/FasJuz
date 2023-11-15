@@ -12,7 +12,7 @@ function HomePage({ page, setPage }) {
   return (
     <>
       <main className="mainHomePage">
-        <Principal/>
+        <Principal page={page} setPage={setPage}/>
         <OqueFazJus page={page} setPage={setPage}/>
         <CustoFazJus/>
         <ComoFazAdivogado page={page} setPage={setPage}/>

@@ -19,14 +19,15 @@
 
   .selectionCFAdivogado > div > button {
     margin-right: 35px;
+    color: #F7F1EC;
     height: 45px;
     padding: 0 30px;
     border-radius: 25px;
+    background-color: #000;
     border: 1px solid #838383;
-    background-color: #F7F1EC;
   }
   .selectionCFAdivogado >  div > button:hover {
-    color: #F7F1EC;
+    color: #000;
     border: 1px solid #838383;
-    background-color: #000;
+    background-color: #F7F1EC;
   }

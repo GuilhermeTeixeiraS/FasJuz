@@ -36,9 +36,7 @@ function NavbarBase({ page, setPage }) {
           <button className="butonLogin">Log in</button>
           <button
             type="button"
-            onClick={() => {
-              setPage(2);
-            }}
+
             className="butonEmContato"
           >
             Entrar em Contato

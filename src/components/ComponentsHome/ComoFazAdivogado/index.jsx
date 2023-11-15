@@ -45,9 +45,7 @@ function ComoFazAdivogado({ page, setPage }) {
       <div>
         <button
           type="button"
-          onClick={() => {
-            setPage(2);
-          }}
+
         >
           Entre em contato com clientes agora!
         </button>

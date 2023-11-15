@@ -43,10 +43,14 @@ function OqueFazJus({ page, setPage }) {
           </div>
         </div>
         <div>
-          <button type="button"
-                    onClick={() => {
-                      setPage(2);
-                    }}>Solicitar Advogado</button>
+          <button
+            onClick={() => {
+              setPage(2);
+            }}
+            type="button"
+          >
+            Solicitar Advogado
+          </button>
         </div>
       </div>
     </section>

@@ -24,7 +24,7 @@ form > ul {
   height: 10px;
   border-radius: 20px;
   border: 20px;
-  background-color: #F7F1EC;
+  background-color: #f7f1ec;
   border: 1px black solid;
 }
 .conteinerForm {
@@ -33,7 +33,7 @@ form > ul {
   flex-direction: column;
   align-items: center;
 }
-form > div > span {
+form > div > p {
   width: 100%;
   margin: 40px 0 0px 0;
   text-align: center;
@@ -48,17 +48,21 @@ form > div > span {
   justify-content: center;
   align-content: center;
 }
+.selecaoBT > span {
+  text-align: center;
+  font-size: 0.75rem;
+}
 .selecaoBT > button {
   width: 240px;
   height: 45px;
   border-radius: 12px;
   border: 1px solid #838383;
-  background-color: #F7F1EC;
+  background-color: #f7f1ec;
   margin: 15px;
 }
 .selecaoBT > button:hover {
   background-color: #000000;
-  color: #F7F1EC;
+  color: #f7f1ec;
 }
 .selecaoBT > textarea {
   background-color: #f7f3f0;
@@ -98,26 +102,26 @@ form > div > span {
   height: 40px;
   border-radius: 50px;
   border: 0px solid black;
-  background-color: #F7F1EC;
+  background-color: #f7f1ec;
   font-size: 40px;
   margin: 0;
-  padding: 0;
+  padding: 0 2px 0 0 ;
 }
 .setaRetorno:hover {
   border: 0px solid black;
   background-color: #000000;
-  color: #F7F1EC;
+  color: #f7f1ec;
 }
 .typeSubmitOrButton {
   width: 100px;
   height: 40px;
   border-radius: 20px;
   border: 1px solid black;
-  background-color: #F7F1EC;
+  background-color: #f7f1ec;
   font-size: 1rem;
   padding: 10;
 }
 .typeSubmitOrButton:hover {
   background-color: #000000;
-  color: #F7F1EC;
+  color: #f7f1ec;
 }

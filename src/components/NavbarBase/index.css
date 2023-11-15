@@ -1,5 +1,4 @@
 header {
-  width: 100vw;
   margin-top: 30px;
 }
 nav {
@@ -19,7 +18,7 @@ nav {
 }
 
 .logoNaveBar > button> img {
-  height: 95%;
+  height: 120px;
   margin-right: 7px;
 }
 .referencia {
@@ -52,10 +51,10 @@ border: transparent;
   color: #F7F1EC;
 }
 .butonEmContato {
-  background-color: black;
-  color: #F7F1EC;
-}
-.butonEmContato:hover {
   background-color: #F7F1EC;
   color: black;
+}
+.butonEmContato:hover {
+  background-color: black;
+  color: #F7F1EC;
 }
